@@ -1,3 +1,4 @@
+import os
 from http.server import BaseHTTPRequestHandler, HTTPServer
 import instaloader
 import json
@@ -7,6 +8,15 @@ class InstagramFollowerHandler(BaseHTTPRequestHandler):
         try:
             # Crea un'istanza di Instaloader
             loader = instaloader.Instaloader()
+
+            # Percorso assoluto del file cookies.json
+            cookies_path = os.path.join(os.path.dirname(__file__), 'cookies.json')
+
+            # Carica i cookie della sessione dal file cookies.json
+            with open(cookies_path, 'r') as f:
+                cookies = json.load(f)
+                for cookie in cookies:
+                    loader.context._session.cookies.set(cookie['name'], cookie['value'], domain=cookie['domain'])
 
             # Ottieni il profilo dell'utente
             profile = instaloader.Profile.from_username(loader.context, username)
@@ -47,6 +57,9 @@ def run(server_class=HTTPServer, handler_class=InstagramFollowerHandler, port=70
 
 if __name__ == '__main__':
     run()
+
+
+
 
 
 
