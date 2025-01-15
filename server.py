@@ -31,7 +31,7 @@ class InstagramFollowerHandler(BaseHTTPRequestHandler):
 
     def do_GET(self):
         if self.path == "/instagram/followers":
-            username = "ngl_cila"
+            username = "ngl_cilaa"
             followers = self.get_instagram_followers(username)
             
             self.send_response(200)
