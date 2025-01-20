@@ -1,7 +1,7 @@
 [
     {
         "domain": ".instagram.com",
-        "expirationDate": 1768415068.589899,
+        "expirationDate": 1768855014.199277,
         "hostOnly": false,
         "httpOnly": false,
         "name": "csrftoken",
@@ -10,7 +10,7 @@
         "secure": true,
         "session": false,
         "storeId": "0",
-        "value": "keKnqm882gzXocNHYyovrfvL63MMzlQp",
+        "value": "e89co1FZjRHfNxVXoTTofKMm3iXKoLv1",
         "id": 1
     },
     {
@@ -29,7 +29,7 @@
     },
     {
         "domain": ".instagram.com",
-        "expirationDate": 1744741468.590031,
+        "expirationDate": 1745181414.199397,
         "hostOnly": false,
         "httpOnly": false,
         "name": "ds_user_id",
@@ -38,7 +38,7 @@
         "secure": true,
         "session": false,
         "storeId": "0",
-        "value": "72019245557",
+        "value": "71903875507",
         "id": 3
     },
     {
@@ -107,12 +107,12 @@
         "secure": true,
         "session": true,
         "storeId": "0",
-        "value": "\"RVA\\05472019245557\\0541768501459:01f79ae56e6d56b90c33c1e65bb6f085f01eaf71cedb3f682dea43486c65c11340fd7b0f\"",
+        "value": "\"NCG\\05471903875507\\0541768941413:01f7894c74b62b5927d88b4e12d9558613b4f8b3ff015af59ec5a1f49f756bca306e40a1\"",
         "id": 8
     },
     {
         "domain": ".instagram.com",
-        "expirationDate": 1768501462.864115,
+        "expirationDate": 1768941287.610884,
         "hostOnly": false,
         "httpOnly": true,
         "name": "sessionid",
@@ -121,12 +121,12 @@
         "secure": true,
         "session": false,
         "storeId": "0",
-        "value": "72019245557%3A8zsGNKm0SPdYW4%3A13%3AAYdA1T1G_rx9QTLW7ahNzf-RcGg3Mp0RU74RHFl1iw",
+        "value": "71903875507%3AXlVrPIslyxfkhM%3A16%3AAYcOImMuhDsULHJzRMB45F0xtPF74dOHTPdyGwm90Q",
         "id": 9
     },
     {
         "domain": ".instagram.com",
-        "expirationDate": 1737570264,
+        "expirationDate": 1738010209,
         "hostOnly": false,
         "httpOnly": false,
         "name": "wd",
@@ -138,4 +138,4 @@
         "value": "2560x911",
         "id": 10
     }
-    ]
+]
